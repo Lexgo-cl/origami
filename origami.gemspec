@@ -23,9 +23,9 @@ Gem::Specification.new do |s|
     s.test_file     = "test/test_pdf.rb"
     s.license       = "LGPL-3.0+"
 
-    s.required_ruby_version = '>= 2.7'
+    s.required_ruby_version = '>= 2.1'
     s.add_runtime_dependency "colorize", "~> 0.8"
-    s.add_runtime_dependency 'rexml',    '>= 3.2.6'
+    s.add_runtime_dependency 'rexml',    '>= 3.1.7.3'
     s.add_development_dependency "minitest", "~> 5.0"
     s.add_development_dependency 'rake',     '~> 10.0'
     s.add_development_dependency 'rdoc',     '~> 5.0'
